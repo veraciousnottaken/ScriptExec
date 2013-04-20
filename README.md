@@ -4,7 +4,7 @@ ScriptExec
 A simple program to invoke executables located in the specified directory.
 
 Simple configuration INI file.
-------------------------------
+=============================
 
 [repository]
 path =
@@ -19,8 +19,10 @@ The following sections can be created when you need to pass parameters to the sc
 parameters = a b c
 
 The call parameters of the program
------------------------------------
+==================================
 
 -i the path to the ini file
 
-For example ScriptExec.exe-i \..\ini\ScriptExec.ini
+Example
+======
+ScriptExec.exe -i \ini\ScriptExec.ini
