@@ -128,8 +128,6 @@ namespace ScriptExec
 
         private void bSaveGlobal_Click(object sender, EventArgs e)
         {
-            _config.Repo.Password = "123";
-
             _config.Save();
         }
     }

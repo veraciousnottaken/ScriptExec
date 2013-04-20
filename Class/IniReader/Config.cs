@@ -34,7 +34,7 @@ namespace IniReader
 
         public void Save(string filename)
         {
-            using (var sw = new StreamWriter(filename + ".bak"))
+            using (var sw = new StreamWriter(filename))
             {
                 foreach (var section in _sections)
                 {
