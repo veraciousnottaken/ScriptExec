@@ -4,6 +4,9 @@ using System.IO;
 
 namespace ScriptExec.Class
 {
+    /// <summary>
+    /// source: http://stackoverflow.com/a/212707/1296687
+    /// </summary>
     public class SimpleAES
     {
         // Change these keys
