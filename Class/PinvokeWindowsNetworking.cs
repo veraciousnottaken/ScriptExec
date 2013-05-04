@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace ScriptExec
+namespace ScriptExec.Class
 {
+	/// <summary>
+	/// source: http://stackoverflow.com/a/3700906/1296687
+	/// </summary>
 	public static class PinvokeWindowsNetworking
 	{
 		#region Consts

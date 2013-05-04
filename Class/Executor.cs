@@ -4,6 +4,9 @@ using System.Text;
 
 namespace ScriptExec
 {
+    /// <summary>
+    /// source: http://stackoverflow.com/a/10072082/1296687
+    /// </summary>
     public static class Executor
     {
         public static string RunExternalExe(string filename, string arguments = null)

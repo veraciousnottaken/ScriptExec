@@ -2,6 +2,7 @@
 using System.IO;
 using System.Linq;
 using IniReader;
+using ScriptExec.Class.IniReader;
 
 namespace ScriptExec.Class
 {
